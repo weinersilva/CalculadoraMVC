@@ -33,7 +33,7 @@ public class CalculadoraModel {
 										mensagem = "Você está obeso!";	
 									}
 					}
-		String resultado = ("Seu IMC é: "+df.format(imc)+". "+mensagem );
+		String resultado = ("Seu IMC é: "+df.format(imc)+". "+mensagem +"!" );
 		return resultado;
 	}
 	

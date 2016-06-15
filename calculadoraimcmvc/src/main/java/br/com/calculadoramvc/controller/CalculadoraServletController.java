@@ -12,7 +12,7 @@ import br.com.calculadoramvc.model.CalculadoraModel;
 /**
  * Servlet implementation class CalculadoraServletController
  */
-@WebServlet("/calculadoramvc")
+@WebServlet("/calculadoraimcmvc")
 public class CalculadoraServletController extends HttpServlet {
 	/**
 	 * 
@@ -30,7 +30,7 @@ public class CalculadoraServletController extends HttpServlet {
 		String sexo = req.getParameter("sexo");		
 		String resultado = CalculadoraModel.calcular(peso, altura, sexo);
 		
-		req.setAttribute("imc", resultado);
+		req.setAttribute("resultado", resultado);
 		req.getRequestDispatcher("CalculadoraView.jsp").forward(req, resp);
 	}
 }

@@ -2,11 +2,11 @@
 <html>
 
   <head>
-    <title>Calculadora</title>
+    <title>Calculadora IMC - MVC</title>
   </head>
 
   <body>
-  	<h1>Calculadora</h1>
+  	<h1>Calculadora IMC - MVC</h1>
   	<form>
   		<table>
   			<tr>
@@ -24,7 +24,7 @@
   		</table>
 		<button>Calcular</button>
   	</form>
-    <b>Resultado: ${imc}</b>
+    <b>Resultado: ${resultado}</b>
   </body>
 
 </html>
